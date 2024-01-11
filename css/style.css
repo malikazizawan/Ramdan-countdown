@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-image: url(../images/ramdan_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align:center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+.col{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px !important;
+    flex-wrap: wrap;
+}
+.inp{
+    width: 100%;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 60%;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: transparent;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+}
+label{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main{}
+    .title{
+        font-size: 16px;
+    }
+    .col{}
+    .inp{}
+    input{}
+    label{}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .main{}
+    .title{
+        font-size: 16px;
+    }
+    .col{}
+    .inp{}
+    input{}
+    label{}
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .main{}
+    .title{
+        font-size: 16px;
+    }
+    .col{}
+    .inp{}
+    input{}
+    label{}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .main{}
+    .title{
+    font-size: 13px;
+    line-height: 24px;
+}
+    .col{}
+    .inp{}
+    input{
+}
+    label{
+    margin-bottom: 9px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main{}
+    .title{}
+    .col{}
+    .inp{}
+    input{}
+    label{}
+}
